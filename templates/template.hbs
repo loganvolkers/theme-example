@@ -1,0 +1,21 @@
+<html>
+    <head>
+        
+        <!-- will output something like: <link rel="stylesheet" type="text/css" href="/path/to/blog/assets/css/style.css?v=1234567" /> -->
+        <link rel="stylesheet" type="text/css" href="{{asset "styles.css"}}" />
+        
+    </head>
+    <body>
+        <h1>{{hello "Logan"}}</h1>
+        
+        <div class="outer">
+            Outer class (should have color)
+            
+            <div class="inner">
+                inner class (should have color)
+            </div>
+            
+        </div>
+    </body>
+
+</html>
